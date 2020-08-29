@@ -68,18 +68,18 @@
     </form>
     
     <h3>Formulários de opções:</h3>
-    <form>
+    <form action="http://www.dimas.com/profile.php">
       <p>Selecione o seu sexo:
         <br>
-        <input type="radio" name="sexo" value="masculino">
-        <input type="radio" name="sexo" value="feminino">        
+        <input type="radio" name="genre" value="masculino"/>
+        <input type="radio" name="genre" value="feminino"/>        
       </p>
       
       <p>Seleciona as suas Linguagens de programação preferidas:
         <br>
-        <input type="checkbox" name="linguagens" value="Python" checked="checked">
-        <input type="checkbox" name="linguagens" value="Java">
-        <input type="checkbox" name="linguagens" value="C">
+        <input type="checkbox" name="service" value="Python" checked="checked"/>
+        <input type="checkbox" name="service" value="Java"/>
+        <input type="checkbox" name="service" value="C"/>
       </p>
       
       <p>Qual país você reside:
@@ -92,6 +92,24 @@
     
     <h3>Formulários de controle</h3>
     
+    <form action="http://www.dimas.com/upload.php" method="post">
+      <p>Upload de arquivo:</p>
+      <input type="file" name="arquivo_aluno" /><br>
+      <input type="submit" value="Upload" />
+    </form>
+    
+    <form action="http://www.dimas.com/subscribe.php">
+      <p>Deixe o seu email para receber novidades:</p>
+      <input type="text" name="email" />
+      <input type="submit" name="subscribe" value="Subscribe"/>
+    </form>
+      
+    <form action="http://www.dimas.org/search.php">
+      <p>Digite o que você deseja pesquisar:</p>
+      <input type="search" name="pesquisa" placeholder="Enter" />
+      <input type="submit" value="Search" />
+    </form>
+
     
 </body>
 </html>
