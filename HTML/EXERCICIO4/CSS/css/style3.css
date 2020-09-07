@@ -1,14 +1,9 @@
-header h1{
- color: #191970;
-}
-
 article {
  height: 300px;
  margin: 0 auto;
+ font-style: italic;
  h3{color: red;}
  p{color: #8B4513;}
 }
+ 
 
-footer p{
- font-style: italic;
-}
