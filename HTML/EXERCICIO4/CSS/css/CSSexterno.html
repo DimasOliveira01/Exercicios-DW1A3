@@ -4,6 +4,14 @@
     <meta charset="utf-8"/>
     <title>CSS Externo</title>
     <link href="style1.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+      .MyClass{
+        font-size: 200%;
+        }
+      #MyId{
+          font-size: 400%
+        }
+    
   </head>
   <body>
     <h1>Utilizando o CSS Externo</h1>
@@ -11,6 +19,14 @@
     
     <hr>
     <h1>Thinking inside the box</h1>
-    <div href="style1.css" class="MyDiv">Olá caixa!</div>
+    <div href="style1.css">Olá caixa!</div>
+    
+    <hr>
+    <h1>Utilizando Seletores</h1>
+    <h2>Seletor Class<h2>
+    <div href="style1.css" class="MyClass">Olá Seletor Class!</div>
+    
+    <h2>Seletor ID</h2>
+    <div href="style1.css"  id="MyId">Olá Seletor ID!</div>
   </body>
 </html>
