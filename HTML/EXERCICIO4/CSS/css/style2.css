@@ -1,16 +1,7 @@
-header h1{
- color: red;
-}
 
-header h2{
- color: green;
-}
-
-article {
+article  h3>p {
  height: 300px;
  margin: 0 auto;
-}
-
-footer p{
  font-style: italic;
+ color: yellow;
 }
