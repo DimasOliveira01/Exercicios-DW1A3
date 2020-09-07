@@ -2,8 +2,7 @@ article {
  height: 300px;
  margin: 0 auto;
  font-style: italic;
- h3{color: red;}
- p{color: #8B4513;}
+ background-color: red;
 }
  
 
