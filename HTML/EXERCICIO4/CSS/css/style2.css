@@ -2,6 +2,6 @@
 article  h3>p {
  height: 300px;
  margin: 0 auto;
- font-style: italic;
- color: yellow;
+ font-style: inherit;
+ color: #4169E1;
 }
