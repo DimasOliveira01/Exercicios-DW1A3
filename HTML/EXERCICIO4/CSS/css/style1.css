@@ -7,7 +7,7 @@ h1 {
   color: #FF4500;   //OrangeRed
   }
 
-div {
+.MyDiv {
     background: #98FB98;
     width: 150px;
     height: 150px;
