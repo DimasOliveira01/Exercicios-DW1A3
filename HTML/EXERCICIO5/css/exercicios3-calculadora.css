@@ -1,34 +1,23 @@
-
-
-body{
-display:flex;
-justify-items:center;
-color:white;
-}
-
-#root{
-padding:5px;
-background-color:black;
-display:grid;
-width:240px;
-height:280px;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-gap:0.1px;
-grid-template-areas: 
-"display display display display"
-"clear porcentagem multiply divide"
-"seven eight nine equal"
-"four five six minus"
-"one two three plus"
-"zero zero dot plus";
+#main{
+	background-color:navy;
+	display:grid;
+	width:240px;
+	height:280px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"display display display display"
+	"clear porcentagem multiply divide"
+	"seven eight nine equal"
+	"four five six minus"
+	"one two three plus"
+	"zero zero dot plus";
 }
 
 #display{
 grid-area:display;
 text-align:right;
 background:dodgerblue;
-border:none;
 font-size:18px;
 font-family:"Arial"
 }
