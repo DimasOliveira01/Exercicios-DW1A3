@@ -23,12 +23,12 @@ figure{
   }
 
 table {
-  margin: auto;
+  border: auto;
   background: #7fff00;
   }
 
 th, td {
-  border: none;
+  border: auto;
   padding: 5px;
   width: 100px;
   }
