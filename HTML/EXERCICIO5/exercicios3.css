@@ -32,3 +32,11 @@ th, td {
   padding: 5px;
   width: 100px;
   }
+
+tr:nth-child(even) {
+    background-color: #008000;
+    }
+tr:nth-child(odd) {
+    background-color: #00ff00;
+    }
+    
