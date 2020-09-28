@@ -24,6 +24,7 @@ figure{
 
 table {
   border: auto;
+  border-collapse: collapse;
   background: #7fff00;
   }
 
