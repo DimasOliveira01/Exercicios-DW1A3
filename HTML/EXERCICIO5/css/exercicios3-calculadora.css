@@ -1,18 +1,4 @@
-button{
-background-color: LightSlateGray;
-font-family:"Arial";
-font-size:25px;
-}
 
-button:hover{
-background-color: gray;
-color:black;
-}
-
-button:active{
-box-shadow: 0 1px #666;
-transform: translateY(4px);
-}
 
 body{
 display:flex;
@@ -45,12 +31,6 @@ background:dodgerblue;
 border:none;
 font-size:18px;
 font-family:"Arial"
-}
-
-#clear
-{
-grid-area:clear;
-background:rgb(172,57,57);
 }
 
 #divide{
