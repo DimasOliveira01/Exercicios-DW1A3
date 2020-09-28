@@ -1,9 +1,5 @@
 #a Principal{ 
  display: grade; 
- } 
-
-#a Principal{ 
- display: grade; 
  grid-template-columns: 20vw auto 20vw; 
  grid-template-rows: 15vh auto; 
  grid-template-areas: "cabeçalho do cabeçalho" 
