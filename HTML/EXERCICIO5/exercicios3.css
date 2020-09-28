@@ -1,0 +1,18 @@
+body {
+    font-family: arial;
+    background-color: #dcdcdc;
+    }
+  
+h1 {
+  color: #ff0000;
+  text-align: center;
+  }
+
+p{
+  text-align: justify;
+  }
+  
+figure{
+  text-align: center;
+  background-position: center;
+  }
