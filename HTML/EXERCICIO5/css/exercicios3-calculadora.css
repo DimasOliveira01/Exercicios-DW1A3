@@ -8,11 +8,11 @@
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-areas: 
 	"display display display display"
-	"clear porcentagem multiply divide"
-	"seven eight nine equal"
-	"four five six minus"
-	"one two three plus"
-	"zero zero dot plus";
+	"limpa porcentagem multiplica divide"
+	"sete oito nove igual"
+	"quatro cinco seis menos"
+	"um dois tres mais"
+	"zero zero ponto mais";
 }
 
 #display{
@@ -31,63 +31,63 @@ grid-area:divide;
 grid-area:porcentagem;
 }
 
-#multiply{
-grid-area:multiply;
+#multiplica{
+grid-area:multiplica;
 }
 
-#plus{
-grid-area:plus;
+#mais{
+grid-area:mais;
 }
 
-#minus{
-grid-area:minus;
+#menos{
+grid-area:menos;
 }
 
-#seven{
-grid-area:seven;
+#sete{
+grid-area:sete;
 }
 
-#eight{
-grid-area:eight;
+#oito{
+grid-area:oito;
 }
 
-#nine{
-grid-area:nine;
+#nove{
+grid-area:nove;
 }
 
-#four{
-grid-area:four;
+#quatro{
+grid-area:quatro;
 }
 
-#five{
-grid-area:five;
+#cinco{
+grid-area:cinco;
 }
 
-#three{
-grid-area:three;
+#tres{
+grid-area:tres;
 }
 
-#two{
-grid-area:two;
+#dois{
+grid-area:dois;
 }
 
-#one{
-grid-area:one;
+#um{
+grid-area:um;
 }
 
-#dot{
-grid-area:dot;
+#ponto{
+grid-area:ponto;
 }
 
 #zero{
 grid-area:zero;
 }
 
-#equal{
-grid-area:equal;
+#igual{
+grid-area:igual;
 }
 
-#six{
-grid-area:six;
+#seis{
+grid-area:seis;
 }
 	
