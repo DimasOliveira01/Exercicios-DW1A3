@@ -2,11 +2,12 @@
 #tabela{
     text-align: center;
     border: solid;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+    background-color: red;
     /*font-size: 85%;*/
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
   }
 th , td {
     border:solid;
